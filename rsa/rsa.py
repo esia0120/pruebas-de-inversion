@@ -72,4 +72,4 @@ while(Tol<Ei and k<itermax):
     mi=mo
     Ei=Eo
     #vE[k]=Ei
-yf3=G.dot(mi)
+yf=G.dot(mi)
