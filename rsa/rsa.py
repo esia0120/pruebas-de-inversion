@@ -6,7 +6,7 @@ x=data.get('x').T
 y=data.get('y').T
 G=np.hstack((x**0,x**1))
 
-mi=np.array([[2],[1]])
+mi=np.array([[1],[1]])
 yi=G.dot(mi)
 Ei=np.sqrt(np.sum((y-yi)**2))
 itermax=1000
